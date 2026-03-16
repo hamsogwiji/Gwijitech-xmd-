@@ -1,11 +1,27 @@
 {
-  "name": "gwijitech-bot",
+  "name": "gwijitech-xmd-pairing",
   "version": "1.0.0",
-  "type": "module",
-  "main": "server.js",
+  "description": "WhatsApp App pairing web application",
+  "main": "src/main.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc.9",
-    "express": "^4.18.2",
-    "pino": "^8.12.0"
-  }
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "lucide-react": "^0.378.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  },
+  "author": "Hamso Gwiji",
+  "license": "MIT",
+  "private": true
 }
+  
